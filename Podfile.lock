@@ -1,0 +1,29 @@
+PODS:
+  - DeclarativeUI (0.1.1)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - DeclarativeUI
+  - RxCocoa
+
+SPEC REPOS:
+  trunk:
+    - DeclarativeUI
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  DeclarativeUI: b93109eb5a0dcfd096f24226775c24dd8066c448
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: a4046c632ce99cbd2cd93195e7fcc0e851d3bc59
+
+COCOAPODS: 1.11.3
