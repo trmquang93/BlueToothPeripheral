@@ -11,6 +11,7 @@
 		1B52A36F27F3ED9D001F45D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B52A36E27F3ED9D001F45D6 /* ViewController.swift */; };
 		1B52A37427F3ED9D001F45D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B52A37327F3ED9D001F45D6 /* Assets.xcassets */; };
 		1B52A37727F3ED9D001F45D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B52A37527F3ED9D001F45D6 /* LaunchScreen.storyboard */; };
+		1BC3E77D27FEA880000F9589 /* BatteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC3E77C27FEA880000F9589 /* BatteryViewController.swift */; };
 		4A310D95EFC2F976626D70D6 /* Pods_BluetoothPeripheral.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C27E722AE7D6C8339BB150 /* Pods_BluetoothPeripheral.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		1B52A37327F3ED9D001F45D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B52A37627F3ED9D001F45D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B52A37827F3ED9D001F45D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC3E77C27FEA880000F9589 /* BatteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryViewController.swift; sourceTree = "<group>"; };
 		1F0732173AE9BA9E28D83268 /* Pods-BluetoothPeripheral.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothPeripheral.debug.xcconfig"; path = "Target Support Files/Pods-BluetoothPeripheral/Pods-BluetoothPeripheral.debug.xcconfig"; sourceTree = "<group>"; };
 		3760EC4572F867982CC868F0 /* Pods-BluetoothPeripheral.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothPeripheral.release.xcconfig"; path = "Target Support Files/Pods-BluetoothPeripheral/Pods-BluetoothPeripheral.release.xcconfig"; sourceTree = "<group>"; };
 		C6C27E722AE7D6C8339BB150 /* Pods_BluetoothPeripheral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluetoothPeripheral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 			children = (
 				1B52A36A27F3ED9D001F45D6 /* AppDelegate.swift */,
 				1B52A36E27F3ED9D001F45D6 /* ViewController.swift */,
+				1BC3E77C27FEA880000F9589 /* BatteryViewController.swift */,
 				1B52A37327F3ED9D001F45D6 /* Assets.xcassets */,
 				1B52A37527F3ED9D001F45D6 /* LaunchScreen.storyboard */,
 				1B52A37827F3ED9D001F45D6 /* Info.plist */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC3E77D27FEA880000F9589 /* BatteryViewController.swift in Sources */,
 				1B52A36F27F3ED9D001F45D6 /* ViewController.swift in Sources */,
 				1B52A36B27F3ED9D001F45D6 /* AppDelegate.swift in Sources */,
 			);

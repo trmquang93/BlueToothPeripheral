@@ -1,5 +1,6 @@
 PODS:
   - DeclarativeUI (0.1.1)
+  - MedicalBandSDK (0.1.0)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -9,6 +10,7 @@ PODS:
 
 DEPENDENCIES:
   - DeclarativeUI
+  - MedicalBandSDK (from `../MedicalBandSDK`)
   - RxCocoa
 
 SPEC REPOS:
@@ -18,12 +20,17 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
 
+EXTERNAL SOURCES:
+  MedicalBandSDK:
+    :path: "../MedicalBandSDK"
+
 SPEC CHECKSUMS:
   DeclarativeUI: b93109eb5a0dcfd096f24226775c24dd8066c448
+  MedicalBandSDK: 0387c2d3ba52eccd47ad505dfb625a60aacbe5a8
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
 
-PODFILE CHECKSUM: a4046c632ce99cbd2cd93195e7fcc0e851d3bc59
+PODFILE CHECKSUM: dfa98c1c179c6ab5286af93b93638e0291112bfd
 
 COCOAPODS: 1.11.3

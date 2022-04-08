@@ -6,6 +6,7 @@ target 'BluetoothPeripheral' do
   use_frameworks!
   pod 'DeclarativeUI'
   pod 'RxCocoa'
+  pod 'MedicalBandSDK', path: "../MedicalBandSDK"
   # Pods for BluetoothPeripheral
 
 end
