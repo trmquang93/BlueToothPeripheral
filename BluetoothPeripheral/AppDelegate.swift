@@ -37,7 +37,7 @@ extension AppDelegate {
     static func createRootViewController() -> UIViewController {
         let viewController = ViewController()
         
-        return viewController
+        return UINavigationController(rootViewController: viewController)
     }
 }
 

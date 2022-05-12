@@ -49,7 +49,33 @@ extension ViewController: UITableViewDataSource {
 }
 
 extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let item = CharateristicType(rawValue: indexPath.row) else { return }
+        let viewController = self.viewController(for: item)
+        navigationController?.pushViewController(viewController, animated: true)
+    }
     
+    func viewController(for item: CharateristicType) -> UIViewController {
+        var viewController: UIViewController
+        switch item {
+        case .battery:
+            viewController = BatteryViewController()
+        case .charge:
+            viewController = UIViewController()
+        case .thermometer:
+            viewController = UIViewController()
+        case .pulseoximeter:
+            viewController = UIViewController()
+        case .co2:
+            viewController = UIViewController()
+        case .control:
+            viewController = ControlViewController()
+        case .calibration:
+            viewController = UIViewController()
+        }
+        
+        return viewController
+    }
 }
 
 extension ViewController: CBPeripheralManagerDelegate {
